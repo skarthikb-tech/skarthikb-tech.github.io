@@ -1,2 +1,2 @@
 # shakthikarthik.github.io
-My personal page
+My portfolio
