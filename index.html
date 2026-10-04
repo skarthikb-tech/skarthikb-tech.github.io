@@ -3,21 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Shakthi Karthik — Computer Science portfolio.">
-  <title>Shakthi Karthik | Overview</title>
-
-  <!-- Circular SVG Favicon with Initials -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23071e3a'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='bold' font-size='42' fill='%23f7f9fb'>SK</text></svg>">
-
+  <title>Shakthi Karthik — Personal & Technical Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="logo" href="index.html" aria-label="Shakthi Karthik home">SK</a>
-      <nav aria-label="Primary navigation">
-        <a class="active" href="index.html">Overview</a>
-        <a href="research.html">Research &amp; Architecture</a>
+      <a href="index.html" class="logo">SK</a>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="research.html">Research & Projects</a>
         <a href="experience.html">Experience</a>
       </nav>
     </div>
@@ -26,95 +22,96 @@
   <main>
     <section class="hero container">
       <div class="hero-copy">
-        <p class="kicker">COMPUTER SCIENCE · UNIVERSITY OF GEORGIA</p>
-        <h1>Shakthi<br>Karthik</h1>
+        <p class="kicker">Personal & Technical Portfolio · CS @ UGA</p>
+        <h1>Shakthi Karthik</h1>
         <p class="lead">
-          Computer Science student at the University of Georgia focused on software,
-          mobile development, and research in AI document assistants.
+          Computer Science undergraduate at the University of Georgia specializing in software engineering, mobile development, and AI security red-teaming.
         </p>
         <div class="hero-actions">
-          <a class="button button-light" href="experience.html">View experience</a>
-          <a class="button button-outline" href="research.html">Research &amp; projects</a>
+          <a href="research.html" class="button button-light">View Work</a>
+          <a href="mailto:sk73064@uga.edu" class="button button-outline">Contact Me</a>
         </div>
       </div>
-
       <div class="portrait-wrap">
         <div class="portrait">
           <img src="assets/cover.jpg" alt="Shakthi Karthik" class="portrait-img">
         </div>
-        
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-label">EDUCATION</div>
-        <div class="split-heading">
-          <h2>University of Georgia</h2>
-          <span>Athens, GA</span>
-        </div>
-
-        <div class="education-row">
-          <div>
-            <h3>Bachelor of Science in Computer Science</h3>
-            <p>Expected Graduation May 2029</p>
+    <section class="section container">
+      <div class="split-heading">
+        <p class="section-label">Education</p>
+        <span>Athens, GA</span>
+      </div>
+      <div class="education-row">
+        <div>
+          <h3>University of Georgia</h3>
+          <p>Bachelor of Science in Computer Science</p>
+          <div class="coursework">
+            <span>Data Structures & Algorithms</span>
+            <span>Software Engineering</span>
+            <span>Theory of Computing</span>
+            <span>Discrete Mathematics</span>
+            <span>OOP</span>
           </div>
-          <div class="education-details">
-            <p><strong>GPA:</strong> 3.72 / 4.00</p>
-            <p>HOPE Scholarship · Dean’s List (3 Semesters)</p>
-          </div>
         </div>
-
-        <div class="coursework">
-          <span>Data Structures &amp; Algorithms</span>
-          <span>Software Engineering</span>
-          <span>Theory of Computing</span>
-          <span>Discrete Mathematics</span>
-          <span>OOP</span>
+        <div class="education-details">
+          <p><strong>Expected Graduation:</strong> May 2029</p>
+          <p><strong>GPA:</strong> 3.72 / 4.00</p>
+          <p><strong>Honors:</strong> HOPE Scholarship, Dean's List (3 Semesters)</p>
         </div>
       </div>
     </section>
 
     <section class="section section-alt">
       <div class="container">
-        <div class="section-label">FOCUS</div>
+        <p class="section-label">Focus Areas</p>
         <div class="focus-grid">
           <article>
             <span class="index">01</span>
-            <h3>AI Research</h3>
-            <p>Researching prompt-injection vulnerabilities and defenses for AI document assistants.</p>
+            <h3>AI Security & Red-Teaming</h3>
+            <p>Evaluating LLM robustness, memory manipulation, and prompt injection vectors through automated testing with Codex and Astra models.</p>
           </article>
           <article>
             <span class="index">02</span>
-            <h3>Mobile Development</h3>
-            <p>Building cross-platform applications with Flutter and Dart.</p>
+            <h3>Cross-Platform Mobile</h3>
+            <p>Architecting user journeys, real-time sync, and UI widget workflows using Flutter, Dart, Firebase, and Supabase.</p>
           </article>
           <article>
             <span class="index">03</span>
-            <h3>Software &amp; Data</h3>
-            <p>Working with Python, Java, C++, SQL, Supabase, Firebase, HTML5, and CSS.</p>
+            <h3>Software & Systems</h3>
+            <p>Building reliable applications with foundational strength in Data Structures, Algorithms, and Object-Oriented Programming.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container skills-layout">
+    <section class="section container">
+      <div class="skills-layout">
         <div>
-          <div class="section-label">SKILLS</div>
-          <h2>Technical foundation</h2>
+          <p class="section-label">Technical Capabilities</p>
+          <h2>Skills & Expertise</h2>
         </div>
         <div class="skill-list">
-          <div><span>Languages</span><p>Python · Java · C++ · SQL · Dart</p></div>
-          <div><span>Development</span><p>Flutter · HTML5 · CSS</p></div>
-          <div><span>Platforms &amp; Data</span><p>Firebase · Supabase</p></div>
-          <div><span>Languages</span><p>English (Fluent) · Tamil (Fluent) · Spanish (Intermediate)</p></div>
+          <div>
+            <span>Languages</span>
+            <p>Python, Java, C++, HTML5, CSS, SQL, Dart, English (Fluent), Tamil (Fluent), Spanish (Intermediate)</p>
+          </div>
+          <div>
+            <span>Frameworks & Libs</span>
+            <p>Flutter, React, Firebase, Supabase, PostgreSQL</p>
+          </div>
+          <div>
+            <span>Tools & Methodologies</span>
+            <p>Git, GitHub, VS Code, Android Studio, Red-Teaming, Prompt Injection, Agile Development</p>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
- <footer class="site-footer">
+  <footer class="site-footer">
     <div class="container footer-wrap">
       <div>
         <span class="footer-name">Shakthi Karthik</span>
@@ -122,10 +119,11 @@
       </div>
       <div class="footer-links">
         <a href="https://github.com/skarthikb-tech" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://www.linkedin.com/in/shakthi-karthik" target="_blank" rel="noopener noreferrer">Shakthi Karthik | LinkedIn ↗</a>
         <a href="mailto:sk73064@uga.edu">sk73064@uga.edu</a>
       </div>
     </div>
   </footer>
+
 </body>
 </html>
