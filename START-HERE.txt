@@ -1,0 +1,31 @@
+SHAKTHI KARTHIK — PORTFOLIO REDESIGN
+
+Open index.html in a browser to explore the redesigned portfolio.
+No installation, build step, account, or internet connection is needed to
+view the local pages.
+
+To use in your existing portfolio folder:
+1. Copy index.html, research.html, experience.html, styles.css, and script.js
+   into the same folder, replacing the older HTML and CSS files.
+2. Keep your existing assets folder alongside these files.
+3. The original photo reference is unchanged: assets/cover.jpg.
+   Your portrait was not included in the uploaded files and is not in this ZIP.
+
+All original portfolio wording, dates, facts, links, and image references
+are preserved. README.md is also unchanged.
+
+Design and interaction changes:
+- Ivory and forest-green palette with soft lime/blue highlights
+- Larger editorial typography and an orbital portrait frame
+- Linked focus cards and in-page project navigation
+- Reading progress and a keyboard-accessible back-to-top button
+- Responsive layouts, visible focus states, reduced-motion support,
+  semantic headings, and print styling
+
+The site remains usable if JavaScript is disabled.
+No tracking, third-party libraries, external fonts, or backend were added.
+Nothing has been published or deployed.
+
+Validation: original text/link comparison and static accessibility checks
+passed; JavaScript syntax and behavior logic were checked. Live browser
+rendering could not be verified in the editing environment.
